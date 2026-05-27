@@ -30,7 +30,7 @@ Este projeto foi desenvolvido como prática de consumo de APIs REST em Java, tra
 
 - Java 16 ou superior
 - IntelliJ IDEA
-- [Gson JAR](https://mvnrepository.com/artifact/com.google.code.gson/gson) — baixe o arquivo `.jar` mais recente e importa a dependência manualmente(File>Project Structure>Modules> Dependencies> +)
+- [Gson JAR](https://mvnrepository.com/artifact/com.google.code.gson/gson) — baixe o arquivo `.jar` mais recente e importa a dependência manualmente (File>Project Structure>Modules> Dependencies> +)
 - Maven (Opcional)
     - Com Maven você só declara no arquivo pom.xml e ele baixa e configura automaticamente. ✅:
 ```
