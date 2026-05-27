@@ -1,0 +1,578 @@
+{
+  "Id": 5,
+  "Name": "charmeleon",
+  "Abilities": [
+    {
+      "Ability": {
+        "Name": "blaze"
+      }
+    },
+    {
+      "Ability": {
+        "Name": "solar-power"
+      }
+    }
+  ],
+  "Types": [
+    {
+      "Type": {
+        "Name": "fire"
+      }
+    }
+  ],
+  "Stats": [
+    {
+      "Stat": {
+        "Name": "hp"
+      },
+      "Base_stat": 58
+    },
+    {
+      "Stat": {
+        "Name": "attack"
+      },
+      "Base_stat": 64
+    },
+    {
+      "Stat": {
+        "Name": "defense"
+      },
+      "Base_stat": 58
+    },
+    {
+      "Stat": {
+        "Name": "special-attack"
+      },
+      "Base_stat": 80
+    },
+    {
+      "Stat": {
+        "Name": "special-defense"
+      },
+      "Base_stat": 65
+    },
+    {
+      "Stat": {
+        "Name": "speed"
+      },
+      "Base_stat": 80
+    }
+  ],
+  "Moves": [
+    {
+      "Move": {
+        "Name": "mega-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fire-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "thunder-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "scratch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "swords-dance"
+      }
+    },
+    {
+      "Move": {
+        "Name": "cut"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mega-kick"
+      }
+    },
+    {
+      "Move": {
+        "Name": "headbutt"
+      }
+    },
+    {
+      "Move": {
+        "Name": "body-slam"
+      }
+    },
+    {
+      "Move": {
+        "Name": "take-down"
+      }
+    },
+    {
+      "Move": {
+        "Name": "double-edge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "leer"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bite"
+      }
+    },
+    {
+      "Move": {
+        "Name": "growl"
+      }
+    },
+    {
+      "Move": {
+        "Name": "roar"
+      }
+    },
+    {
+      "Move": {
+        "Name": "ember"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flamethrower"
+      }
+    },
+    {
+      "Move": {
+        "Name": "submission"
+      }
+    },
+    {
+      "Move": {
+        "Name": "counter"
+      }
+    },
+    {
+      "Move": {
+        "Name": "seismic-toss"
+      }
+    },
+    {
+      "Move": {
+        "Name": "strength"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-rage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fire-spin"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dig"
+      }
+    },
+    {
+      "Move": {
+        "Name": "toxic"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mimic"
+      }
+    },
+    {
+      "Move": {
+        "Name": "double-team"
+      }
+    },
+    {
+      "Move": {
+        "Name": "smokescreen"
+      }
+    },
+    {
+      "Move": {
+        "Name": "defense-curl"
+      }
+    },
+    {
+      "Move": {
+        "Name": "reflect"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fire-blast"
+      }
+    },
+    {
+      "Move": {
+        "Name": "swift"
+      }
+    },
+    {
+      "Move": {
+        "Name": "skull-bash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fury-swipes"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rest"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-slide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "slash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "substitute"
+      }
+    },
+    {
+      "Move": {
+        "Name": "snore"
+      }
+    },
+    {
+      "Move": {
+        "Name": "curse"
+      }
+    },
+    {
+      "Move": {
+        "Name": "protect"
+      }
+    },
+    {
+      "Move": {
+        "Name": "scary-face"
+      }
+    },
+    {
+      "Move": {
+        "Name": "belly-drum"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mud-slap"
+      }
+    },
+    {
+      "Move": {
+        "Name": "outrage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "endure"
+      }
+    },
+    {
+      "Move": {
+        "Name": "false-swipe"
+      }
+    },
+    {
+      "Move": {
+        "Name": "swagger"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fury-cutter"
+      }
+    },
+    {
+      "Move": {
+        "Name": "attract"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sleep-talk"
+      }
+    },
+    {
+      "Move": {
+        "Name": "return"
+      }
+    },
+    {
+      "Move": {
+        "Name": "frustration"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dynamic-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-breath"
+      }
+    },
+    {
+      "Move": {
+        "Name": "iron-tail"
+      }
+    },
+    {
+      "Move": {
+        "Name": "metal-claw"
+      }
+    },
+    {
+      "Move": {
+        "Name": "hidden-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sunny-day"
+      }
+    },
+    {
+      "Move": {
+        "Name": "crunch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "ancient-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-smash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "beat-up"
+      }
+    },
+    {
+      "Move": {
+        "Name": "heat-wave"
+      }
+    },
+    {
+      "Move": {
+        "Name": "will-o-wisp"
+      }
+    },
+    {
+      "Move": {
+        "Name": "facade"
+      }
+    },
+    {
+      "Move": {
+        "Name": "focus-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "helping-hand"
+      }
+    },
+    {
+      "Move": {
+        "Name": "brick-break"
+      }
+    },
+    {
+      "Move": {
+        "Name": "secret-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "weather-ball"
+      }
+    },
+    {
+      "Move": {
+        "Name": "overheat"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-tomb"
+      }
+    },
+    {
+      "Move": {
+        "Name": "aerial-ace"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-claw"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-dance"
+      }
+    },
+    {
+      "Move": {
+        "Name": "natural-gift"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fling"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flare-blitz"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-pulse"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-rush"
+      }
+    },
+    {
+      "Move": {
+        "Name": "focus-blast"
+      }
+    },
+    {
+      "Move": {
+        "Name": "shadow-claw"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fire-fang"
+      }
+    },
+    {
+      "Move": {
+        "Name": "captivate"
+      }
+    },
+    {
+      "Move": {
+        "Name": "hone-claws"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flame-burst"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flame-charge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "round"
+      }
+    },
+    {
+      "Move": {
+        "Name": "echoed-voice"
+      }
+    },
+    {
+      "Move": {
+        "Name": "incinerate"
+      }
+    },
+    {
+      "Move": {
+        "Name": "acrobatics"
+      }
+    },
+    {
+      "Move": {
+        "Name": "inferno"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fire-pledge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-tail"
+      }
+    },
+    {
+      "Move": {
+        "Name": "work-up"
+      }
+    },
+    {
+      "Move": {
+        "Name": "confide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "power-up-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "breaking-swipe"
+      }
+    },
+    {
+      "Move": {
+        "Name": "tera-blast"
+      }
+    },
+    {
+      "Move": {
+        "Name": "temper-flare"
+      }
+    }
+  ]
+}

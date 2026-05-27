@@ -1,0 +1,498 @@
+{
+  "Id": 1,
+  "Name": "bulbasaur",
+  "Abilities": [
+    {
+      "Ability": {
+        "Name": "overgrow"
+      }
+    },
+    {
+      "Ability": {
+        "Name": "chlorophyll"
+      }
+    }
+  ],
+  "Types": [
+    {
+      "Type": {
+        "Name": "grass"
+      }
+    },
+    {
+      "Type": {
+        "Name": "poison"
+      }
+    }
+  ],
+  "Stats": [
+    {
+      "Stat": {
+        "Name": "hp"
+      },
+      "Base_stat": 45
+    },
+    {
+      "Stat": {
+        "Name": "attack"
+      },
+      "Base_stat": 49
+    },
+    {
+      "Stat": {
+        "Name": "defense"
+      },
+      "Base_stat": 49
+    },
+    {
+      "Stat": {
+        "Name": "special-attack"
+      },
+      "Base_stat": 65
+    },
+    {
+      "Stat": {
+        "Name": "special-defense"
+      },
+      "Base_stat": 65
+    },
+    {
+      "Stat": {
+        "Name": "speed"
+      },
+      "Base_stat": 45
+    }
+  ],
+  "Moves": [
+    {
+      "Move": {
+        "Name": "razor-wind"
+      }
+    },
+    {
+      "Move": {
+        "Name": "swords-dance"
+      }
+    },
+    {
+      "Move": {
+        "Name": "cut"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bind"
+      }
+    },
+    {
+      "Move": {
+        "Name": "vine-whip"
+      }
+    },
+    {
+      "Move": {
+        "Name": "headbutt"
+      }
+    },
+    {
+      "Move": {
+        "Name": "tackle"
+      }
+    },
+    {
+      "Move": {
+        "Name": "body-slam"
+      }
+    },
+    {
+      "Move": {
+        "Name": "take-down"
+      }
+    },
+    {
+      "Move": {
+        "Name": "double-edge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "growl"
+      }
+    },
+    {
+      "Move": {
+        "Name": "strength"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mega-drain"
+      }
+    },
+    {
+      "Move": {
+        "Name": "leech-seed"
+      }
+    },
+    {
+      "Move": {
+        "Name": "growth"
+      }
+    },
+    {
+      "Move": {
+        "Name": "razor-leaf"
+      }
+    },
+    {
+      "Move": {
+        "Name": "solar-beam"
+      }
+    },
+    {
+      "Move": {
+        "Name": "poison-powder"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sleep-powder"
+      }
+    },
+    {
+      "Move": {
+        "Name": "petal-dance"
+      }
+    },
+    {
+      "Move": {
+        "Name": "string-shot"
+      }
+    },
+    {
+      "Move": {
+        "Name": "toxic"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mimic"
+      }
+    },
+    {
+      "Move": {
+        "Name": "double-team"
+      }
+    },
+    {
+      "Move": {
+        "Name": "defense-curl"
+      }
+    },
+    {
+      "Move": {
+        "Name": "light-screen"
+      }
+    },
+    {
+      "Move": {
+        "Name": "reflect"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sludge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "skull-bash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "amnesia"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rest"
+      }
+    },
+    {
+      "Move": {
+        "Name": "substitute"
+      }
+    },
+    {
+      "Move": {
+        "Name": "snore"
+      }
+    },
+    {
+      "Move": {
+        "Name": "curse"
+      }
+    },
+    {
+      "Move": {
+        "Name": "protect"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sludge-bomb"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mud-slap"
+      }
+    },
+    {
+      "Move": {
+        "Name": "outrage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "giga-drain"
+      }
+    },
+    {
+      "Move": {
+        "Name": "endure"
+      }
+    },
+    {
+      "Move": {
+        "Name": "charm"
+      }
+    },
+    {
+      "Move": {
+        "Name": "false-swipe"
+      }
+    },
+    {
+      "Move": {
+        "Name": "swagger"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fury-cutter"
+      }
+    },
+    {
+      "Move": {
+        "Name": "attract"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sleep-talk"
+      }
+    },
+    {
+      "Move": {
+        "Name": "return"
+      }
+    },
+    {
+      "Move": {
+        "Name": "frustration"
+      }
+    },
+    {
+      "Move": {
+        "Name": "safeguard"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sweet-scent"
+      }
+    },
+    {
+      "Move": {
+        "Name": "synthesis"
+      }
+    },
+    {
+      "Move": {
+        "Name": "hidden-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sunny-day"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-smash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "facade"
+      }
+    },
+    {
+      "Move": {
+        "Name": "nature-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "helping-hand"
+      }
+    },
+    {
+      "Move": {
+        "Name": "ingrain"
+      }
+    },
+    {
+      "Move": {
+        "Name": "knock-off"
+      }
+    },
+    {
+      "Move": {
+        "Name": "secret-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "weather-ball"
+      }
+    },
+    {
+      "Move": {
+        "Name": "grass-whistle"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bullet-seed"
+      }
+    },
+    {
+      "Move": {
+        "Name": "magical-leaf"
+      }
+    },
+    {
+      "Move": {
+        "Name": "natural-gift"
+      }
+    },
+    {
+      "Move": {
+        "Name": "worry-seed"
+      }
+    },
+    {
+      "Move": {
+        "Name": "seed-bomb"
+      }
+    },
+    {
+      "Move": {
+        "Name": "energy-ball"
+      }
+    },
+    {
+      "Move": {
+        "Name": "leaf-storm"
+      }
+    },
+    {
+      "Move": {
+        "Name": "power-whip"
+      }
+    },
+    {
+      "Move": {
+        "Name": "captivate"
+      }
+    },
+    {
+      "Move": {
+        "Name": "grass-knot"
+      }
+    },
+    {
+      "Move": {
+        "Name": "venoshock"
+      }
+    },
+    {
+      "Move": {
+        "Name": "acid-spray"
+      }
+    },
+    {
+      "Move": {
+        "Name": "round"
+      }
+    },
+    {
+      "Move": {
+        "Name": "echoed-voice"
+      }
+    },
+    {
+      "Move": {
+        "Name": "grass-pledge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "work-up"
+      }
+    },
+    {
+      "Move": {
+        "Name": "grassy-terrain"
+      }
+    },
+    {
+      "Move": {
+        "Name": "confide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "grassy-glide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "tera-blast"
+      }
+    },
+    {
+      "Move": {
+        "Name": "trailblaze"
+      }
+    }
+  ]
+}

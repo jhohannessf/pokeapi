@@ -1,0 +1,588 @@
+{
+  "Id": 7,
+  "Name": "squirtle",
+  "Abilities": [
+    {
+      "Ability": {
+        "Name": "torrent"
+      }
+    },
+    {
+      "Ability": {
+        "Name": "rain-dish"
+      }
+    }
+  ],
+  "Types": [
+    {
+      "Type": {
+        "Name": "water"
+      }
+    }
+  ],
+  "Stats": [
+    {
+      "Stat": {
+        "Name": "hp"
+      },
+      "Base_stat": 44
+    },
+    {
+      "Stat": {
+        "Name": "attack"
+      },
+      "Base_stat": 48
+    },
+    {
+      "Stat": {
+        "Name": "defense"
+      },
+      "Base_stat": 65
+    },
+    {
+      "Stat": {
+        "Name": "special-attack"
+      },
+      "Base_stat": 50
+    },
+    {
+      "Stat": {
+        "Name": "special-defense"
+      },
+      "Base_stat": 64
+    },
+    {
+      "Stat": {
+        "Name": "speed"
+      },
+      "Base_stat": 43
+    }
+  ],
+  "Moves": [
+    {
+      "Move": {
+        "Name": "mega-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "ice-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mega-kick"
+      }
+    },
+    {
+      "Move": {
+        "Name": "headbutt"
+      }
+    },
+    {
+      "Move": {
+        "Name": "tackle"
+      }
+    },
+    {
+      "Move": {
+        "Name": "body-slam"
+      }
+    },
+    {
+      "Move": {
+        "Name": "take-down"
+      }
+    },
+    {
+      "Move": {
+        "Name": "double-edge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "tail-whip"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bite"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mist"
+      }
+    },
+    {
+      "Move": {
+        "Name": "water-gun"
+      }
+    },
+    {
+      "Move": {
+        "Name": "hydro-pump"
+      }
+    },
+    {
+      "Move": {
+        "Name": "surf"
+      }
+    },
+    {
+      "Move": {
+        "Name": "ice-beam"
+      }
+    },
+    {
+      "Move": {
+        "Name": "blizzard"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bubble-beam"
+      }
+    },
+    {
+      "Move": {
+        "Name": "submission"
+      }
+    },
+    {
+      "Move": {
+        "Name": "counter"
+      }
+    },
+    {
+      "Move": {
+        "Name": "seismic-toss"
+      }
+    },
+    {
+      "Move": {
+        "Name": "strength"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dig"
+      }
+    },
+    {
+      "Move": {
+        "Name": "toxic"
+      }
+    },
+    {
+      "Move": {
+        "Name": "confusion"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mimic"
+      }
+    },
+    {
+      "Move": {
+        "Name": "double-team"
+      }
+    },
+    {
+      "Move": {
+        "Name": "withdraw"
+      }
+    },
+    {
+      "Move": {
+        "Name": "defense-curl"
+      }
+    },
+    {
+      "Move": {
+        "Name": "haze"
+      }
+    },
+    {
+      "Move": {
+        "Name": "reflect"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "waterfall"
+      }
+    },
+    {
+      "Move": {
+        "Name": "skull-bash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "bubble"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rest"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-slide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "substitute"
+      }
+    },
+    {
+      "Move": {
+        "Name": "snore"
+      }
+    },
+    {
+      "Move": {
+        "Name": "curse"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flail"
+      }
+    },
+    {
+      "Move": {
+        "Name": "protect"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mud-slap"
+      }
+    },
+    {
+      "Move": {
+        "Name": "foresight"
+      }
+    },
+    {
+      "Move": {
+        "Name": "icy-wind"
+      }
+    },
+    {
+      "Move": {
+        "Name": "outrage"
+      }
+    },
+    {
+      "Move": {
+        "Name": "endure"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rollout"
+      }
+    },
+    {
+      "Move": {
+        "Name": "false-swipe"
+      }
+    },
+    {
+      "Move": {
+        "Name": "swagger"
+      }
+    },
+    {
+      "Move": {
+        "Name": "attract"
+      }
+    },
+    {
+      "Move": {
+        "Name": "sleep-talk"
+      }
+    },
+    {
+      "Move": {
+        "Name": "return"
+      }
+    },
+    {
+      "Move": {
+        "Name": "frustration"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dynamic-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rapid-spin"
+      }
+    },
+    {
+      "Move": {
+        "Name": "iron-tail"
+      }
+    },
+    {
+      "Move": {
+        "Name": "hidden-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rain-dance"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mirror-coat"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-smash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "whirlpool"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fake-out"
+      }
+    },
+    {
+      "Move": {
+        "Name": "hail"
+      }
+    },
+    {
+      "Move": {
+        "Name": "facade"
+      }
+    },
+    {
+      "Move": {
+        "Name": "focus-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "helping-hand"
+      }
+    },
+    {
+      "Move": {
+        "Name": "brick-break"
+      }
+    },
+    {
+      "Move": {
+        "Name": "yawn"
+      }
+    },
+    {
+      "Move": {
+        "Name": "refresh"
+      }
+    },
+    {
+      "Move": {
+        "Name": "secret-power"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dive"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mud-sport"
+      }
+    },
+    {
+      "Move": {
+        "Name": "weather-ball"
+      }
+    },
+    {
+      "Move": {
+        "Name": "rock-tomb"
+      }
+    },
+    {
+      "Move": {
+        "Name": "water-spout"
+      }
+    },
+    {
+      "Move": {
+        "Name": "muddy-water"
+      }
+    },
+    {
+      "Move": {
+        "Name": "iron-defense"
+      }
+    },
+    {
+      "Move": {
+        "Name": "mud-shot"
+      }
+    },
+    {
+      "Move": {
+        "Name": "water-pulse"
+      }
+    },
+    {
+      "Move": {
+        "Name": "gyro-ball"
+      }
+    },
+    {
+      "Move": {
+        "Name": "brine"
+      }
+    },
+    {
+      "Move": {
+        "Name": "natural-gift"
+      }
+    },
+    {
+      "Move": {
+        "Name": "fling"
+      }
+    },
+    {
+      "Move": {
+        "Name": "aqua-ring"
+      }
+    },
+    {
+      "Move": {
+        "Name": "aura-sphere"
+      }
+    },
+    {
+      "Move": {
+        "Name": "aqua-tail"
+      }
+    },
+    {
+      "Move": {
+        "Name": "dragon-pulse"
+      }
+    },
+    {
+      "Move": {
+        "Name": "zen-headbutt"
+      }
+    },
+    {
+      "Move": {
+        "Name": "captivate"
+      }
+    },
+    {
+      "Move": {
+        "Name": "aqua-jet"
+      }
+    },
+    {
+      "Move": {
+        "Name": "round"
+      }
+    },
+    {
+      "Move": {
+        "Name": "scald"
+      }
+    },
+    {
+      "Move": {
+        "Name": "shell-smash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "water-pledge"
+      }
+    },
+    {
+      "Move": {
+        "Name": "work-up"
+      }
+    },
+    {
+      "Move": {
+        "Name": "confide"
+      }
+    },
+    {
+      "Move": {
+        "Name": "power-up-punch"
+      }
+    },
+    {
+      "Move": {
+        "Name": "liquidation"
+      }
+    },
+    {
+      "Move": {
+        "Name": "life-dew"
+      }
+    },
+    {
+      "Move": {
+        "Name": "flip-turn"
+      }
+    },
+    {
+      "Move": {
+        "Name": "wave-crash"
+      }
+    },
+    {
+      "Move": {
+        "Name": "tera-blast"
+      }
+    },
+    {
+      "Move": {
+        "Name": "ice-spinner"
+      }
+    },
+    {
+      "Move": {
+        "Name": "chilling-water"
+      }
+    }
+  ]
+}
