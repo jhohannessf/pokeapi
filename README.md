@@ -22,7 +22,22 @@ Escrita de arquivos JSON no disco
 Pré-requisitos
 
 Java 16 ou superior
-Maven
+
+IntelliJ IDEA
+
+Gson JAR — baixe o arquivo .jar mais recente e importa a dependência manualmente(File>Project Structure>Modules> Dependencies> +)
+
+Opcional: Marven
+
+Com Maven você só declara no arquivo pom.xml:
+
+´´´xml<dependency>
+<groupId>com.google.code.gson</groupId>
+<artifactId>gson</artifactId>
+<version>2.10.1</version>
+</dependency>´´´
+
+E ele baixa e configura automaticamente. ✅
 
 Passos
 bash# Clone o repositório
