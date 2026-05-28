@@ -1,4 +1,4 @@
-package excecao;
+package co.pokeapi.excecao;
 
 public class ErroDeConversaoBusca extends RuntimeException {
     private String mensagem;

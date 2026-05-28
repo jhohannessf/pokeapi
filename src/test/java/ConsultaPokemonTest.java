@@ -1,6 +1,6 @@
-import excecao.ErroDeConversaoBusca;
-import modelos.ConsultaPokemon;
-import modelos.Pokemon;
+import co.pokeapi.excecao.ErroDeConversaoBusca;
+import co.pokeapi.modelos.ConsultaPokemon;
+import co.pokeapi.modelos.Pokemon;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,7 +14,7 @@ public class ConsultaPokemonTest {
     void deveLancarExcecaoComNomeInvalido() {
         // Verifica se lança a exceção certa ao buscar algo que não existe
         assertThrows(ErroDeConversaoBusca.class, () -> {
-            consulta.buscar("pokemon-que-nao-existe-xyz");
+            consulta.buscar("Não consegui capturar este Pokemon na busca (Nome ou ID.Dex inválido).");
         });
     }
 

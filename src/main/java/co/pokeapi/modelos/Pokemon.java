@@ -1,4 +1,4 @@
-package modelos;
+package co.pokeapi.modelos;
 
 import java.util.List;
 import java.util.stream.Collectors;

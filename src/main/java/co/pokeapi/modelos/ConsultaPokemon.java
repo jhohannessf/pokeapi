@@ -1,4 +1,4 @@
-package modelos;
+package co.pokeapi.modelos;
 
 import co.pokeapi.contratos.IConsulta;
 import co.pokeapi.excecao.ErroDeConversaoBusca;

@@ -9,7 +9,7 @@ public class ErroDeConversaoBuscaTest {
 
     @Test
     void DeveTerMensagem(){
-        String mensagem = "Pokemon não encontrado";
+        String mensagem = "Não consegui capturar este Pokemon na busca (Nome ou ID.Dex inválido).";
         ErroDeConversaoBuscaTest erro = new ErroDeConversaoBuscaTest(mensagem);
 
         //Verifica se a mensagem está certa
