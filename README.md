@@ -69,30 +69,36 @@ Digite o nome ou ID.Dex do Pokémon que deseja capturar:
 
 ```
 src/
-└── main/
+├── main/
+│   └── java/
+│       └── co/
+│           └── pokeapi/
+│               ├── contratos/
+│               │   └── IConsulta.java             # Interface de consulta
+│               ├── excecao/
+│               │   └── ErroDeConversaoBusca.java  # Exceção customizada
+│               ├── modelos/
+│               │   ├── Pokemon.java               # Record principal
+│               │   ├── Ability.java               # Records internos da API
+│               │   ├── AbilityWrapper.java
+│               │   ├── Type.java
+│               │   ├── TypeWrapper.java
+│               │   ├── Stat.java
+│               │   ├── StatWrapper.java
+│               │   ├── Move.java
+│               │   ├── MoveWrapper.java
+│               │   ├── ConsultaPokemon.java        # Consumo da API
+│               │   └── GerenciadorDeArquivos.java  # Salva JSON no disco
+│               └── principal/
+│                   └── Principal.java             # Ponto de entrada
+└── test/
     └── java/
         └── co/
             └── pokeapi/
-                ├── contratos/
-                │   └── IConsulta.java          # Interface de consulta
-                ├── excecao/
-                │   └── ErroDeConversaoBusca.java  # Exceção customizada
-                ├── modelos/
-                │   ├── Pokemon.java            # Record principal
-                │   ├── Ability.java            # Records internos da API
-                │   ├── AbilityWrapper.java
-                │   ├── Type.java
-                │   ├── TypeWrapper.java
-                │   ├── Stat.java
-                │   ├── StatWrapper.java
-                │   ├── Move.java
-                │   ├── MoveWrapper.java
-                │   ├── ConsultaPokemon.java    # Consumo da API
-                │   └── GerenciadorDeArquivos.java  # Salva JSON no disco
-                └── principal/
-                    └── Principal.java          # Ponto de entrada
+                ├── ConsultaPokemonTest.java        # Testes de consulta à API
+                └── ErroDeConversaoBuscaTest.java   # Testes da exceção customizada
 
-pokemons/                                       # Pasta gerada automaticamente com os JSONs
+pokemons/                                          # Pasta gerada automaticamente com os JSONs
 ```
 
 ---
