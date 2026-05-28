@@ -17,7 +17,7 @@ jobs:
       - name: Configurar Java 17
         uses: actions/setup-java@v3
         with:
-          java-version: '17'
+          java-version: '26'
           distribution: 'temurin'
           cache: maven        # ⚡ cacheia as dependências para o próximo push ser mais rápido
 
