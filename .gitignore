@@ -16,7 +16,7 @@ target/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/ConsultaPokemonTest/**/bin/
+!**/src/co.pokeapi.ConsultaPokemonTest/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
