@@ -1,7 +1,9 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Pasta de build do Maven
+target/
+
+# Arquivos do IntelliJ
+.idea/
+*.iml
 .kotlin
 
 ### Eclipse ###
@@ -14,7 +16,7 @@ out/
 .sts4-cache
 bin/
 !**/src/main/**/bin/
-!**/src/test/**/bin/
+!**/src/ConsultaPokemonTest/**/bin/
 
 ### NetBeans ###
 /nbproject/private/

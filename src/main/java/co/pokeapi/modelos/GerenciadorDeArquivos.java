@@ -32,7 +32,7 @@ public class GerenciadorDeArquivos {
         //Ao usar o try-with-resources, Não é necessário usar o close(),
         // pois caso der erro no write, o try fecha automaticamente.
 
-        try (FileWriter arquivo = new FileWriter(pokemon.name() + ".json")){
+        try (FileWriter arquivo = new FileWriter("pokemons/" + pokemon.name() + ".json")){
             arquivo.write(gson.toJson(pokemon)); // Convertendo o Objeto Pokemon Record para Json.
         }
 
