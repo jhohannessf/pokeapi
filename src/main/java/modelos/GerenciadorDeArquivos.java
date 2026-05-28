@@ -1,4 +1,4 @@
-package co.pokeapi.modelos;
+package modelos;
 
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;

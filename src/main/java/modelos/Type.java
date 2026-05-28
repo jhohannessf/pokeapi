@@ -1,3 +1,3 @@
-package co.pokeapi.modelos;
+package modelos;
 
 public record Type(String name) {}

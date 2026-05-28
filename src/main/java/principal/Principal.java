@@ -1,4 +1,4 @@
-package co.pokeapi.principal;
+package principal;
 
 import co.pokeapi.modelos.ConsultaPokemon;
 import co.pokeapi.modelos.GerenciadorDeArquivos;
