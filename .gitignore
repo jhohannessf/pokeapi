@@ -1,4 +1,9 @@
-### IntelliJ IDEA ###
+# Pasta de build do Maven
+target/
+
+# Arquivos do IntelliJ
+.idea/
+*.iml
 .kotlin
 
 ### Eclipse ###
