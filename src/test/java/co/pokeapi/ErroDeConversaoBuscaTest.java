@@ -1,7 +1,9 @@
+package co.pokeapi;
+
 import co.pokeapi.excecao.ErroDeConversaoBusca;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ErroDeConversaoBuscaTest {
     @Test

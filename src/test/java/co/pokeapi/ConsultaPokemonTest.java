@@ -1,6 +1,9 @@
+package co.pokeapi;
+
 import co.pokeapi.excecao.ErroDeConversaoBusca;
 import co.pokeapi.modelos.ConsultaPokemon;
 import co.pokeapi.modelos.Pokemon;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -18,6 +21,7 @@ public class ConsultaPokemonTest {
     }
 
     @Test
+    @Disabled("Teste de integração — depende de API externa")
     void deveBuscarPokemonPorNome() {
         Pokemon pokemon = consulta.buscar("pikachu");
 
@@ -27,6 +31,7 @@ public class ConsultaPokemonTest {
     }
 
     @Test
+    @Disabled("Teste de integração — depende de API externa")
     void deveBuscarPokemonPorId() {
         Pokemon pokemon = consulta.buscar("25"); // pikachu é o 25
 
