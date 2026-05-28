@@ -3,11 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ErroDeConversaoBuscaTest {
-
-    public ErroDeConversaoBuscaTest(String mensagem) {
-    }
-
+class ErroDeConversaoBuscaTest {
     @Test
     void DeveTerMensagem(){
         String mensagem = "Não consegui capturar este Pokemon na busca (Nome ou ID.Dex inválido).";
