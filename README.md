@@ -28,36 +28,22 @@ Este projeto foi desenvolvido como prática de consumo de APIs REST em Java, tra
 
 ### Pré-requisitos
 
-- Java 16 ou superior
+- Java 17 ou superior
 - IntelliJ IDEA
-- [Gson JAR](https://mvnrepository.com/artifact/com.google.code.gson/gson) — baixe o arquivo `.jar` mais recente e importa a dependência manualmente (File>Project Structure>Modules> Dependencies> +)
-- Maven (Opcional)
-    - Com Maven você só declara no arquivo pom.xml e ele baixa e configura automaticamente. ✅:
-```
-xml<dependency>
-<groupId>com.google.code.gson</groupId>
-<artifactId>gson</artifactId>
-<version>2.10.1</version>
-</dependency>
-```
+- Maven
 
 
 
 ### Passos
 
-1. Clone ou baixe o repositório:
+1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/pokeapi-console.git
+git clone https://github.com/jhohannessf/pokeapi.git
 ```
 
 2. Abra o projeto no **IntelliJ IDEA**
 
-3. Adicione o Gson como dependência manual:
-    - Vá em `File` → `Project Structure` → `Modules`
-    - Clique na aba **Dependencies**
-    - Clique no `+` → **JARs or Directories**
-    - Selecione o arquivo `gson-x.x.x.jar` que você baixou
-    - Clique em **OK** e **Apply**
+3. O Maven baixa as dependências automaticamente — aguarde a sincronização do `pom.xml`
 
 4. Execute a classe `Principal.java` clicando no botão ▶ ao lado do método `main`
 
@@ -83,20 +69,30 @@ Digite o nome ou ID.Dex do Pokémon que deseja capturar:
 
 ```
 src/
-├── excecao/
-│   └── ErroDeConversaoBusca.java   # Exceção customizada
-├── modelos/
-│   ├── Pokemon.java                # Record principal
-│   ├── AbilityWrapper.java         # Wrappers da API
-│   ├── TypeWrapper.java
-│   ├── StatWrapper.java
-│   ├── MoveWrapper.java
-│   ├── ConsultaPokemon.java        # Consumo da API
-│   └── GerenciadorDeArquivos.java  # Salva JSON no disco
-└── principal/
-    └── Principal.java              # Ponto de entrada
+└── main/
+    └── java/
+        └── co/
+            └── pokeapi/
+                ├── contratos/
+                │   └── IConsulta.java          # Interface de consulta
+                ├── excecao/
+                │   └── ErroDeConversaoBusca.java  # Exceção customizada
+                ├── modelos/
+                │   ├── Pokemon.java            # Record principal
+                │   ├── Ability.java            # Records internos da API
+                │   ├── AbilityWrapper.java
+                │   ├── Type.java
+                │   ├── TypeWrapper.java
+                │   ├── Stat.java
+                │   ├── StatWrapper.java
+                │   ├── Move.java
+                │   ├── MoveWrapper.java
+                │   ├── ConsultaPokemon.java    # Consumo da API
+                │   └── GerenciadorDeArquivos.java  # Salva JSON no disco
+                └── principal/
+                    └── Principal.java          # Ponto de entrada
 
-pokemons/                           # Pasta gerada automaticamente com os JSONs
+pokemons/                                       # Pasta gerada automaticamente com os JSONs
 ```
 
 ---
@@ -134,10 +130,13 @@ Arquivo gerado em `pokemons/charizard.json`:
 
 | Tecnologia | Uso |
 |---|---|
-| Java 16+ | Linguagem principal |
+| Java 17 | Linguagem principal |
 | IntelliJ IDEA | IDE de desenvolvimento |
+| Maven | Gerenciamento de dependências |
 | HttpClient | Requisições HTTP |
-| Gson (JAR manual) | Serialização/desserialização JSON |
+| Gson | Serialização/desserialização JSON |
+| JUnit 5 | Testes unitários |
+| GitHub Actions | CI/CD |
 | PokeAPI | Fonte dos dados |
 
 ---
@@ -150,6 +149,8 @@ Arquivo gerado em `pokemons/charizard.json`:
 - **Stream API** — manipulação de listas
 - **Exceções customizadas** — tratamento de erros personalizado
 - **Try-with-resources** — gerenciamento seguro de arquivos
+- **Testes unitários** — validação com JUnit 5
+- **CI/CD** — pipeline automatizado com GitHub Actions
 
 ---
 
