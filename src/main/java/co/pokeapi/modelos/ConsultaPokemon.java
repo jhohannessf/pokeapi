@@ -24,13 +24,12 @@ public class ConsultaPokemon implements IConsulta {
     }
 
     public Pokemon buscar(String busca){
-        URI url = URI.create("https://pokeapi.co/api/v2/pokemon/" + busca);
-
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(url)
-                .build();
-
         try {
+            URI url = URI.create("https://pokeapi.co/api/v2/pokemon/" + busca);
+
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(url)
+                    .build();
 
             HttpResponse<String> response = HttpClient
                     .newHttpClient()
