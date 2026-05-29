@@ -19,23 +19,25 @@ public class GerenciadorDeArquivos {
                 .setPrettyPrinting() //Método para salvar o json no formato legível
                 .create(); // GsonBuilder termina a configuração e cria o objeto Gson final
 
-        //Define pasta que será salva os pokemons
+        // Garante que a pasta existe
         File pasta = new File("pokemons");
-
-        //Cria a pasta se ela não existir
-        if (!pasta.exists()){
-            pasta.mkdirs(); //mkdirs cria a pasta e subpastas se necessário
+        if (!pasta.exists()) {
+            pasta.mkdirs();
         }
 
-        //Salva ou Escreve em um arquivo usando o try-with-resouces
-        //usar o close() é arriscado se der erro no write, nunca é chamado.
-        //Ao usar o try-with-resources, Não é necessário usar o close(),
-        // pois caso der erro no write, o try fecha automaticamente.
-
-        try (FileWriter arquivo = new FileWriter("pokemons/" + pokemon.name() + ".json")){
-            arquivo.write(gson.toJson(pokemon)); // Convertendo o Objeto Pokemon Record para Json.
+        // Verifica se o arquivo já existe ANTES de abrir o FileWriter
+        File arquivoJson = new File("pokemons/" + pokemon.name() + ".json");
+        if (arquivoJson.exists()) {
+            System.out.println("⚠️ " + pokemon.name() + " já foi capturado anteriormente!");
+            return; // encerra o método sem sobrescrever
         }
 
+        // Salva o arquivo
+        try (FileWriter arquivo = new FileWriter(arquivoJson)) {
+            arquivo.write(gson.toJson(pokemon));
+        }
     }
 
 }
+
+
