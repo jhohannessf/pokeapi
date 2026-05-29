@@ -5,6 +5,7 @@ import co.pokeapi.modelos.GerenciadorDeArquivos;
 import co.pokeapi.modelos.Pokemon;
 
 import java.io.IOException;
+import java.util.List;
 import java.util.Scanner;
 
 public class Principal {
@@ -13,13 +14,20 @@ public class Principal {
         //Capturando o que é digita e armazenando em uma variável
         Scanner leitura = new Scanner(System.in);
 
+        //Instanciando o meu objeto da classe Consulta Pokemon
+        ConsultaPokemon c = new ConsultaPokemon();
+
+        //Escrevendo o Objeto em um arquivo
+        GerenciadorDeArquivos file = new GerenciadorDeArquivos();
+
+
         String menu = "";
 
-        while (!menu.equals("2")) {
+        while (!menu.equals("3")) {
             System.out.println("\n=== POKÉDEX ===");
             System.out.println("1. Capturar Pokémon");
-            System.out.println("2. Sair");
-            System.out.println("Escolha uma opção: ");
+            System.out.println("2. Ver Pokémons capturados");
+            System.out.println("3. Sair\n");
             menu = leitura.nextLine();
 
             if (menu.equals("1")) {
@@ -27,16 +35,9 @@ public class Principal {
                 var captura = leitura.nextLine();
 
                 try {
-                    //Instanciando o meu objeto da classe Consulta Pokemon
-                    ConsultaPokemon c = new ConsultaPokemon();
-
                     //Faz a busca do pokemon e retorna um objeto Pokemon
                     Pokemon pokemon = c.buscar(captura);
-
-                    //Escrevendo o Objeto em um arquivo
-                    GerenciadorDeArquivos file = new GerenciadorDeArquivos();
                     file.escreveArquivo(pokemon);
-
                     // Extraindo só o que interessa
                     System.out.println(pokemon);
                     System.out.println("✅ Captura finalizada com sucesso!");
@@ -45,8 +46,23 @@ public class Principal {
                 } catch (IOException e) {
                     throw new IllegalStateException(e);
                 }
-            } else if (!menu.equals("2")) {
-                System.out.println("Opção inválida! Digite 1 ou 2.");
+            } else if (menu.equals("2")) {
+                try {
+                    List<Pokemon> capturados = file.listarCapturados();
+                    if (capturados.isEmpty()) {
+                        System.out.println("Nenhum Pokémon capturado ainda.");
+                    } else {
+                        System.out.println("\n=== Pokémons Capturados ===");
+                        capturados.forEach(p ->
+                                System.out.println("• " + p.name().toUpperCase() + " (ID: " + p.id() + ")")
+                        );
+                    }
+                } catch (IOException e) {
+                    throw new IllegalStateException(e);
+                }
+
+            } else if (!menu.equals("3")) {
+                System.out.println("Opção inválida! Digite 1, 2 ou 3.");
             }
         }
 
