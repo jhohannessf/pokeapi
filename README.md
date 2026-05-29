@@ -1,5 +1,7 @@
 # 🎮 PokeAPI Console App
 
+![CI](https://github.com/jhohannessf/pokeapi/actions/workflows/ci.yml/badge.svg)
+
 Aplicação Java que consome a [PokeAPI](https://pokeapi.co/) para buscar informações de Pokémons e salvar os dados em arquivos JSON localmente.
 
 ---
@@ -12,7 +14,8 @@ Este projeto foi desenvolvido como prática de consumo de APIs REST em Java, tra
 - Conversão de JSON para objetos Java com **Gson**
 - Criação de **Records** para modelagem de dados
 - Tratamento de exceções customizadas
-- Escrita de arquivos JSON no disco
+- Escrita e leitura de arquivos JSON no disco
+- Menu interativo no console
 
 ---
 
@@ -21,6 +24,9 @@ Este projeto foi desenvolvido como prática de consumo de APIs REST em Java, tra
 - 🔍 Buscar Pokémon por **nome** ou **ID da Pokédex**
 - 📄 Exibir informações no console: tipos, habilidades e stats
 - 💾 Salvar os dados do Pokémon em um arquivo `.json` na pasta `pokemons/`
+- 📋 Listar todos os Pokémons já capturados
+- ⚠️ Verificar duplicidade antes de salvar
+- 🚫 Tratar erros da API (404, falhas de conexão)
 
 ---
 
@@ -28,7 +34,7 @@ Este projeto foi desenvolvido como prática de consumo de APIs REST em Java, tra
 
 ### Pré-requisitos
 
-- Java 17 ou superior
+- Java 26 ou superior
 - IntelliJ IDEA
 - Maven
 
@@ -49,7 +55,17 @@ git clone https://github.com/jhohannessf/pokeapi.git
 
 ### Uso
 
-Ao rodar a aplicação, digite o nome ou o ID do Pokémon quando solicitado:
+Ao rodar a aplicação, um menu interativo será exibido:
+
+```
+=== POKÉDEX ===
+1. Capturar Pokémon
+2. Ver Pokémons capturados
+3. Sair
+Escolha uma opção:
+```
+
+Para capturar, digite o nome ou ID quando solicitado:
 
 ```
 Digite o nome ou ID.Dex do Pokémon que deseja capturar:
@@ -106,12 +122,32 @@ pokemons/                                          # Pasta gerada automaticament
 ## 🧪 Exemplo de saída
 
 ```
-=== CHARIZARD (ID: 6) ===
+=== POKÉDEX ===
+1. Capturar Pokémon
+2. Ver Pokémons capturados
+3. Sair
+Escolha uma opção:
+> 1
+
+Digite o nome ou ID.Dex do Pokémon que deseja capturar:
+> charizard
+
+=== CHARIZARD ===
+ID Dex: 6
 Tipos: fire, flying
 Habilidades: blaze, solar-power
 Stats: hp: 78, attack: 84, defense: 78, special-attack: 109, special-defense: 85, speed: 100
 
-Captura finalizada com sucesso!
+✅ Captura finalizada com sucesso!
+```
+
+Listando pokémons capturados:
+
+```
+=== Pokémons Capturados ===
+• CHARIZARD (ID: 6)
+• PIKACHU (ID: 25)
+• BULBASAUR (ID: 1)
 ```
 
 Arquivo gerado em `pokemons/charizard.json`:
@@ -136,7 +172,7 @@ Arquivo gerado em `pokemons/charizard.json`:
 
 | Tecnologia | Uso |
 |---|---|
-| Java 17 | Linguagem principal |
+| Java 26 | Linguagem principal |
 | IntelliJ IDEA | IDE de desenvolvimento |
 | Maven | Gerenciamento de dependências |
 | HttpClient | Requisições HTTP |
@@ -157,6 +193,9 @@ Arquivo gerado em `pokemons/charizard.json`:
 - **Try-with-resources** — gerenciamento seguro de arquivos
 - **Testes unitários** — validação com JUnit 5
 - **CI/CD** — pipeline automatizado com GitHub Actions
+- **Serialização/Desserialização** — ciclo completo com Gson (`toJson` e `fromJson`)
+- **Tratamento de status HTTP** — respostas 404 e erros de conexão
+- **Manipulação de arquivos** — leitura e escrita de arquivos JSON no disco
 
 ---
 

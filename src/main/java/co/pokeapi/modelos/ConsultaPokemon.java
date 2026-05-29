@@ -35,10 +35,19 @@ public class ConsultaPokemon implements IConsulta {
                     .newHttpClient()
                     .send(request, HttpResponse.BodyHandlers.ofString());
 
+            if (response.statusCode() == 400) {
+                throw new ErroDeConversaoBusca("Pokemon não encontrado. Verifique o nome ou ID.");
+            }
+            if (response.statusCode() != 200) {
+                throw new ErroDeConversaoBusca("Erro na API. Tente novamente mais tarde.");
+            }
+
             //Convertendo de Json para a meu Objeto Record Pokemon
             return new Gson().fromJson(response.body(), Pokemon.class);
 
-        } catch (Exception e){
+        } catch (ErroDeConversaoBusca e) {
+            throw e; // ← relança sem modificar
+        } catch (Exception e) {
             throw new ErroDeConversaoBusca("Não consegui capturar este Pokemon na busca (Nome ou ID.Dex inválido).");
         }
 
