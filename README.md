@@ -192,10 +192,37 @@ Arquivo gerado em `pokemons/charizard.json`:
 - **Exceções customizadas** — tratamento de erros personalizado
 - **Try-with-resources** — gerenciamento seguro de arquivos
 - **Testes unitários** — validação com JUnit 5
-- **CI/CD** — pipeline automatizado com GitHub Actions
+- **Testes de integração** — categorizados com `@Tag("integration")`
+- **CI/CD** — pipeline automatizado com GitHub Actions, executando apenas testes unitários
 - **Serialização/Desserialização** — ciclo completo com Gson (`toJson` e `fromJson`)
 - **Tratamento de status HTTP** — respostas 404 e erros de conexão
 - **Manipulação de arquivos** — leitura e escrita de arquivos JSON no disco
+
+---
+
+## 🧪 Testes
+
+O projeto possui dois tipos de testes:
+
+| Tipo | Tag | Quando roda |
+|---|---|---|
+| **Unitários** | sem tag | Sempre — inclusive no CI |
+| **Integração** | `@Tag("integration")` | Apenas manualmente |
+
+### Rodar apenas testes unitários
+```bash
+mvn test
+```
+
+### Rodar apenas testes de integração
+```bash
+mvn test -Dgroups=integration
+```
+
+### Rodar todos os testes
+```bash
+mvn test -DexcludedGroups=
+```
 
 ---
 

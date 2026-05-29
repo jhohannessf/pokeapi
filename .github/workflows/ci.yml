@@ -22,4 +22,5 @@ jobs:
           cache: maven        # ⚡ cacheia as dependências para o próximo push ser mais rápido
 
       - name: Compilar e rodar os testes
-        run: mvn test         # só isso! Maven baixa o Gson, JUnit e roda tudo
+        run: mvn test         # Maven baixa o Gson, JUnit e roda tudo. Roda só teste unitário.
+
